@@ -4,6 +4,6 @@ import { promises as fsPromises } from 'fs';
 
 const routes = express.Router();
 
-routes.get('/processImage', (req, res) => {});
+routes.get('/getImage', (req, res) => {});
 
 export default routes;

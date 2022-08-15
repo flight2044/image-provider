@@ -55,7 +55,7 @@ const imgProcessor = (
   res: express.Response,
   next: Function
 ): void => {
-  const imageName: string = req.query.imageName as string;
+  const imageName: string = req.query.img as string;
   const ht: string = req.query.width as string;
   const wt: string = req.query.height as string;
 
