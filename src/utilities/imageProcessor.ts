@@ -56,13 +56,13 @@ const imgProcessor = (
   next: Function
 ): void => {
   const imageName: string = req.query.img as string;
-  const ht: string = req.query.width as string;
-  const wt: string = req.query.height as string;
+  const wt: string = req.query.width as string;
+  const ht: string = req.query.height as string;
 
   const imagePath = path.join(__dirname, `../assets/${imageName}.jpg`);
   const outputImage = path.join(
     __dirname,
-    `../assets/${imageName}_resized_w${wt}ht${ht}.jpg`
+    `../assets/${imageName}_resized_w${wt}h${ht}.jpg`
   );
 
   const imgDetails: ImageDetails = {

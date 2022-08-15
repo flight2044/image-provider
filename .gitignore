@@ -4,3 +4,5 @@ dist/routes
 dist/tests
 dist/utilities
 dist/index.js
+dist/assets/*_resized_w*h*.jpg
+src/assets/*_resized_w*h*.jpg
