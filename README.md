@@ -32,5 +32,6 @@ Scripts Available:
      build - builds the project
      start - starts the server
      test - runs build and test
+	 lint - runs lint script
 
 
