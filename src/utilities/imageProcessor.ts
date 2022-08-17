@@ -70,7 +70,7 @@ const imgProcessor = (
     width: parseInt(wt),
     height: parseInt(ht),
     imagePath: imagePath,
-    outputImage: outputImage,
+    outputImage: outputImage
   };
   getImage(imgDetails, res);
 };

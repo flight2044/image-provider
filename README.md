@@ -26,5 +26,11 @@ Technical Details:
 - If the image name does exist on the server but the width and height are not valid values, an error message is also sent	
 
 
+Scripts Available:
+     prettier - for code formatting
+     jasmine - runs jasmine tests
+     build - builds the project
+     start - starts the server
+     test - runs build and test
 
 

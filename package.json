@@ -4,7 +4,7 @@
   "description": "Image Processing API",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --config .prettierrc \"src/**/*.ts\" --check",
+    "prettier": "prettier --config .prettierrc \"src/**/*.ts\" --write --check",
     "jasmine": "jasmine",
     "build": "npx tsc",
     "start": "nodemon src/index.ts",
@@ -36,6 +36,7 @@
     "express": "^4.18.1",
     "jasmine": "^4.3.0",
     "jasmine-spec-reporter": "^7.0.0",
+    "node-mocks-http": "^1.11.0",
     "sharp": "^0.30.7",
     "supertest": "^6.2.4"
   }
